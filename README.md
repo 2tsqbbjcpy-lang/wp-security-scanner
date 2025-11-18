@@ -1,3 +1,7 @@
+# WP Security Scanner
+
+A lightweight WordPress surface-level security scanner
+
 ## Installation
 ```
 pip install -r requirements.txt
