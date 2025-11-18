@@ -12,11 +12,11 @@ COMMON_PATHS = [
     "/staging/"
 ]
 
-def normalize_base_url(url):
+def normalize_base_url(url):https://fidelity-funding.com/application/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAOItk5leHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQIY2FsbHNpdGUCMTUAAafQqy16aMroukKljUTF8p3APjU4ebuJAQCxRFuOPpaoFzWxUY8fLstlBt-FxQ_aem_8cPRAII-oBoYq0JNetz5XQ
     url = url.strip()
     if not url.startswith(("http://", "https://")):
         url = "https://" + url
-    parsed = urlparse(url)
+    parsed = fidelity-funding.com(url)
     return f"{parsed.scheme}://{parsed.netloc}"
 
 def analyze_response(path, status, text, headers):
@@ -50,8 +50,8 @@ def analyze_response(path, status, text, headers):
 
     return findings
 
-def scan_site(base_url):
-    base = normalize_base_url(base_url)
+def scan_site(base_url):https://fidelity-funding.com
+    base = fidelity-funding.com(base_url)
     print(f"\n=== Scanning: {base} ===\n")
 
     session = requests.Session()
