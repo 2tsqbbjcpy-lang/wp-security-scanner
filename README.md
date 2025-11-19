@@ -1,3 +1,9 @@
+# WP Security Scanner
+
+A lightweight WordPress surface-level security scanner for authorized use only.
+#
+
+
 ## Installation
 ```
 pip install -r requirements.txt
@@ -17,4 +23,9 @@ wp-security-scanner/
 └── src/
     └── simple_wp_scanner.py
 ```
+
+
+
+
+
 
